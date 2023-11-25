@@ -1,0 +1,10 @@
+## Docker commands used to build the application 
+docker build -t sirjuns/techtrends .
+
+## Docker commands used to run the application
+docker run -d --name techtrends -p 7111:3111 sirjuns/techtrends
+
+## Docker commands used to get the application logs
+docker logs -f techtrends
+
+
